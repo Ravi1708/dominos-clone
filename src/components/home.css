@@ -1,0 +1,111 @@
+.navbar{
+    background-color:#bd1906;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+}
+.nav-delivery{
+    display: flex;
+    padding: 1%;
+    width: 30%;
+    justify-content: space-around;
+}
+.nav-applink{
+    display: flex;
+    margin-left: auto;
+    width: 50%;
+    justify-content: space-around;
+}
+.applinks{
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-carousel {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 1rem;
+    overflow-x: scroll;
+}
+.carousel-item{
+    margin-left: 10px;
+}
+
+.search-prefer{
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.calorie{
+    display: flex;
+    margin-left: auto;
+}
+.menu {
+    
+    padding-right: 10px;
+    padding-top: 30px;
+    border-top: 1px solid #d0d0d0;
+}
+.menu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+}
+.menu > ul >li {
+    font-size: 15px;
+    width: 200px;
+    padding: 5px;
+    color: #6f6f6f
+}
+
+.active{
+    border-left: 3px solid red;
+    font-weight: bolder;
+    color: black !important;
+}
+
+.food-content{
+    display: flex
+}
+
+.food{
+    border: 1px solid #d0d0d0;
+    padding: 5px;
+    width: 50%;
+}
+.food-item{
+    border: 1px solid #d0d0d0;
+    display: flex;
+}
+
+.item-content {
+    padding: 10px;
+    width: 50%;
+}
+.item-prize {
+    justify-content: center;
+}
+.item-add{
+    padding-top:7px;
+    padding-bottom: 3px;
+    background-color:#ffbc0f !important;
+    cursor: pointer;
+    color: #292929;
+    font-size: 15px;
+}
+
+.cart {
+    margin: 10px auto;
+}
+
+.footer{
+    text-align: center;
+    background-color:#bd1906;
+    height: 50px;
+}
